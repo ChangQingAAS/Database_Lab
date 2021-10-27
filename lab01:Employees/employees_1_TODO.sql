@@ -1,3 +1,9 @@
+-- Create the database first.
+
+CREATE DATABASE employees;
+
+\c employees;-- PostgreSQL
+
 -- 3
 -- 用SQL创建关系表
 drop table employees;
